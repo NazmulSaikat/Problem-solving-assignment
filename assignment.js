@@ -33,8 +33,8 @@ function hotelCost(day) {
     else {
         var first10Days = 10 * 100;
         var second10Days = 10 * 80;
-        var after20days = (day - 20) * 50;
-        var total = first10Days + second10Days + after20days
+        var afterFirst20Days = (day - 20) * 50;
+        var total = first10Days + second10Days + afterFirst20Days
     }
     return total;
 }
