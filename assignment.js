@@ -4,6 +4,7 @@
 
 // Kilometer To Meter
 
+
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
@@ -89,7 +90,7 @@ console.log(output);
 
 function kilometerToMeter(kilometer){
     if(kilometer < 0){
-        console.log(distance can not be negative)
+        console.log('distance can not be negative')
     }
     var meter = kilometer * 1000;
     return meter;
