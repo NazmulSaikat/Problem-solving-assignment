@@ -63,16 +63,29 @@ console.log(totalbudget);
 
 // Mega Friend
 
-function megaFriend(name){
-    var friend ="";
-for (var i = 0; i < name.length; i++) { 
-    var element = name[i];       
-    if (element.length > friend.length) {
-        friend = element;
+function megaFriend(name) {
+    var largestName = "";
+    for (var i = 0; i < name.length; i++) {
+        var element = name[i];
+        if (element.length > largestName.length) {
+            largestName = element;
+        }
     }
+    return largestName;
 }
-return friend;
-}
-var output = megaFriend(["jaidur", "rubai", "talha", "mehedi", "miraj", "rakin"])
+var output = megaFriend(["jaidur", "meher", "rubai", "talha", "ria", "salam"]);
+console.log(output);
 
-console.log(output)
+
+
+
+
+// Bonus part
+
+function kilometerToMeter(kilometer){
+    if(kilometer < 0){
+        console.log(distance can not be negative)
+    }
+    var meter = kilometer * 1000;
+    return meter;
+}
