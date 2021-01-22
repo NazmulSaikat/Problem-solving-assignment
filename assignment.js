@@ -1,3 +1,7 @@
+// https://github.com/NazmulSaikat/Problem-solving-assignment
+
+
+
 // Kilometer To Meter
 
 function kilometerToMeter(kilometer) {
@@ -75,6 +79,7 @@ function megaFriend(name) {
 }
 var output = megaFriend(["jaidur", "meher", "rubai", "talha", "ria", "salam"]);
 console.log(output);
+
 
 
 
